@@ -1,6 +1,7 @@
 import React from 'react';
 
-import './highest-lowest.css';
+import './highest-lowest.scss';
+
 const HighestLowest = () => {
   let arr = [
     { description: 'Number of closed trades in profit', value: '89.4%' },
@@ -11,11 +12,14 @@ const HighestLowest = () => {
 
   return (
     <div className='wrapper'>
-      {arr.map((item) => {
+      {arr.map((item, i) => {
         return (
-          <div key={item.description} className='main'>
-            <p className='first'>{item.description}</p>
-            <p className='second'>{item.value}</p>
+          <div
+            key={item.description}
+            className={`box ${i % 2 ? 'pink' : 'green'}`}
+          >
+            <p className='box__descr'>{item.description}</p>
+            <p className='box__value'>{item.value}</p>
           </div>
         );
       })}

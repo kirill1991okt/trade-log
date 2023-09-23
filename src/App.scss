@@ -1,8 +1,5 @@
-/* .test {
-  display: inline-block;
-  background-color: aqua;
-} */
 .App {
+  padding: 50px;
   margin: 120px 100px;
   border-radius: 10px;
   background: linear-gradient(
@@ -15,14 +12,14 @@
   /* Shadow_bg small */
   box-shadow: -81px -56px 200px -23px rgba(0, 0, 0, 0.3),
     80px 30px 152px 30px rgba(0, 0, 0, 0.3);
-}
 
-h1 {
-  font-family: Roboto;
-  font-size: 50px;
-  font-weight: 400;
-  line-height: 50px;
-  letter-spacing: -0.04em;
-  color: #fff;
-  padding-top: 50px;
+  h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    padding-top: 50px;
+  }
 }
