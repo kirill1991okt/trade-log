@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trade-log/static/css/main.5d7a4858.css",
+    "main.js": "/trade-log/static/js/main.e47471ba.js",
+    "index.html": "/trade-log/index.html",
+    "main.5d7a4858.css.map": "/trade-log/static/css/main.5d7a4858.css.map",
+    "main.e47471ba.js.map": "/trade-log/static/js/main.e47471ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d7a4858.css",
+    "static/js/main.e47471ba.js"
+  ]
+}
